@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.obox{
+  border: solid 1px;
+  height:  160px;
+  display: flex;
+}
+#box1,#box2{
+    border: solid 1px;
+    height: 160px;
+}
+#box1{
+    width: 160px;
+}
+#box2{
+    width: 2000px;
+    text-align: center;
+    background-color: #e6dddd55;
+}
+#clgname{
+    font-size: 60px;
+    color: green(0, 9, 128);
+}
+#text1{
+    color: red;
+}
+#bits{
+    font-size: 40px;
+    color: purple;
+}
+#scrollortext{
+    font-size: 40px;
+    color: rgb(153, 241, 21);
+    font-weight: bold;
+    background-color: aqua;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 260px;
+    float: left;
+    text-align: center;
+    line-height: 49px;
+    background-color: rgb(27, 221, 27);
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: aqua;
+    font-size: 22px;
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:hover{
+    background-color: blue;
+}
+.outbox{
+    border: solid 1px;
+    height: 360px;
+    display: flex;
+    justify-content:  space-between;
+}
+#int1,#int2,#inyt3{
+    border: solid 1px;
+    height: 360px;
+}
+#int{
+    width: 600px;
+    background-image:rgb(88, 182, 88) ;
+}
